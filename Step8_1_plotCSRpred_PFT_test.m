@@ -32,8 +32,8 @@ end
 
 function plot_csr_bar(change_meanPFT)
 % X = categorical({'Tundra','Tropical & Subtropical Moist Broadleaf Forests','Mediterranean Forests, Woodlands & Scrub','Deserts & Xeric Shrublands','Temperate Grasslands, Savannas & Shrublands','Boreal Forests/Taiga','Temperate Conifer Forests','Temperate Broadleaf & Mixed Forests','Montane Grasslands & Shrublands','Mangroves','Flooded Grasslands & Savannas','Tropical & Subtropical Grasslands, Savannas & Shrublands','Tropical & Subtropical Dry Broadleaf Forests','Tropical & Subtropical Coniferous Forests','N/A'});
-X = categorical({'TDR','TSMBF','MFWS','DXS','TGSS','BFT','TCF','TBMF','MGS','MGR','FGS','TSGSS','TSDBF','TSCF'});
-figure;ba1=bar(X,change_meanPFT(2:end-1,:),'FaceColor','flat');
+X = categorical({'TDR','TSMBF','MFWS','DXS','TGSS','BFT','TCF','TBMF','MGS','MGR','FGS','TSGSS','TSDBF','TSCF','CRPL'});
+figure;ba1=bar(X,change_meanPFT(2:end,:),'FaceColor','flat');
 ba1(1).CData = [171 217 233]/255;%[1 0 0]
 ba1(2).CData = [241 182 218]/255;%[0 1 0]
 ba1(3).CData = [255 255 191]/255;%[0 0 1]
