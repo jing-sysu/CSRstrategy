@@ -1,8 +1,4 @@
-This set of code and data is used for the mapping and prediction of the CSR ecological strategy 
-in the manuscript under review (Jing Wang, Simon Pierce, Yuanzhi Li, Donghao Wu, 
-Heng Huang, Josep Peñuelas, Bill Shipley, Chengjin Chu, under review, 2026). 
-The flowchart follows Steps 2 to 8.
-The original data is too large to be uploaded to GitHub and has therefore been uploaded to GEE. 
-Users can download the data via the link provided in the manuscript.
-Other data, such as land cover maps and environmental variables, are open-source and can be 
-downloaded from the links provided in the manuscript, please see methods and materials for more details.
+This set of code and data is used for the mapping and prediction of the CSR ecological strategy presented in the manuscript (Jing Wang, Simon Pierce, Yuanzhi Li, Donghao Wu, Heng Huang, Josep Peñuelas, Bill Shipley, Chengjin Chu, under review, 2026). 
+The original data is too large to be uploaded to GitHub (e.g., a 2.3G file for the 1km×1km strategy map) and has therefore been uploaded to GEE. Users can download the data via the link provided in the manuscript (please see Data and materials availability in the manuscript for more details).
+Other data, such as land cover maps and environmental variables, are open-source and can be downloaded from the links provided in the manuscript (please see methods and materials for more details).
+To reproduce the figures in the manuscript, please refer to the corresponding code modules and original data provided in this repository, and follow the operation steps outlined in the flowchart (Steps 2 to 8) to run the code sequentially.
