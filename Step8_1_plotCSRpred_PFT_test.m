@@ -1,8 +1,6 @@
 %% ==============================================================================================
-%  Function: Calculation of CSR ecological strategy using three key functional traits
-%  Method adopted from: Pierce, S., et al. A global method for calculating plant CSR ecological
-%                       strategies applied across biomes world-wide. Functional Ecology, 31, 444-457,
-%                       DOI: 10.1111/1365-2435.12722 (2017)
+%  Function: Calculation of the predicted CSR ecological strategy change across biomes from the historical period (1970-2000)
+%  to 2040, 2060, 2080, 2100 under CMIP6 future climate scenarios, based on 10 global climate models (GCMs; see Materials) for SSP126, SSP245, SSP370, and SSP585.
 %
 %  Author: Jing Wang
 %  Date: 2025/08/08
